@@ -1,0 +1,137 @@
+{
+  "collection": "Arduino robotics coursework, autumn 2024",
+  "primary_coursework_projects": 4,
+  "additional_led_exercise": 1,
+  "archived_sketch_variants": 2,
+  "sketches": [
+    {
+      "path": "sketches/button_game/button_game.ino",
+      "source": "Robotika/robitika1.txt",
+      "source_sha256": "229072f351759a54a01572ffe5f13da656c808dea2b16f1014de9c4353953b84",
+      "selected_lines": [
+        465,
+        597
+      ],
+      "published_sha256": "b925147e484783b9a724d083d3d4daf3b9dc09a8a9860c0e80e8452886c0a07f",
+      "selection": "Selected complete cell explicitly labelled good in the notebook.",
+      "libraries": [],
+      "code_changes": "None"
+    },
+    {
+      "path": "sketches/ultrasonic_alarm/ultrasonic_alarm.ino",
+      "source": "Robotika/sensor-2.1.txt",
+      "source_sha256": "f74056bcd76420b542adfbac8a8d1a5f81851935c74e25a18a909f68cc5ce897",
+      "selected_lines": null,
+      "published_sha256": "f74056bcd76420b542adfbac8a8d1a5f81851935c74e25a18a909f68cc5ce897",
+      "selection": "Complete saved distance/alarm sketch.",
+      "libraries": [
+        "TimerOne"
+      ],
+      "code_changes": "None"
+    },
+    {
+      "path": "sketches/fan_controller/fan_controller.ino",
+      "source": "Robotika/rob3.txt",
+      "source_sha256": "5d25c5f900aabc56d8c65cb66c530a92b89322acf7d49b48809d7aa626cdb0d0",
+      "selected_lines": null,
+      "published_sha256": "5d25c5f900aabc56d8c65cb66c530a92b89322acf7d49b48809d7aa626cdb0d0",
+      "selection": "Complete saved fan-control sketch.",
+      "libraries": [
+        "LiquidCrystal"
+      ],
+      "code_changes": "None"
+    },
+    {
+      "path": "sketches/parking_barrier/parking_barrier.ino",
+      "source": "Arduino/sketch_nov4a/sketch_nov4a.ino",
+      "source_sha256": "d74002208d19438ec52d2f3ba5e68a9d05af57934c8d0db09f8d485603e6d6c5",
+      "selected_lines": null,
+      "published_sha256": "d74002208d19438ec52d2f3ba5e68a9d05af57934c8d0db09f8d485603e6d6c5",
+      "selection": "Saved INO variant includes scan prompt and additional status delays; not claimed chronologically final.",
+      "libraries": [
+        "LiquidCrystal",
+        "Servo"
+      ],
+      "code_changes": "None"
+    },
+    {
+      "path": "sketches/led_sequence/led_sequence.ino",
+      "source": "Downloads/daring_snicket1.ino",
+      "source_sha256": "ec77bdf0a69d3588023dd3ffeaf05e7e7196b913b0c7768422a5d0d4aa60f21e",
+      "selected_lines": null,
+      "published_sha256": "ec77bdf0a69d3588023dd3ffeaf05e7e7196b913b0c7768422a5d0d4aa60f21e",
+      "selection": "Standalone four-output warm-up sequence, not labelled as an additional numbered course lab.",
+      "libraries": [],
+      "code_changes": "None"
+    },
+    {
+      "path": "archive/barrier_text_variant/barrier_text_variant.ino",
+      "source": "Robotika/robitka4.txt",
+      "source_sha256": "87b1795722709ad91529f099aebfc80a297aed3475bb9f6fbc34c8ec622bfd4c",
+      "selected_lines": null,
+      "published_sha256": "87b1795722709ad91529f099aebfc80a297aed3475bb9f6fbc34c8ec622bfd4c",
+      "selection": "Distinct saved TXT variant, retained without algorithm changes.",
+      "libraries": [
+        "LiquidCrystal",
+        "Servo"
+      ],
+      "code_changes": "None"
+    },
+    {
+      "path": "archive/button_counter_variant/button_counter_variant.ino",
+      "source": "Robotika/robitika1.txt",
+      "source_sha256": "229072f351759a54a01572ffe5f13da656c808dea2b16f1014de9c4353953b84",
+      "selected_lines": [
+        366,
+        450
+      ],
+      "published_sha256": "cc0b5b09e240344f8ca8de314e90f4332e373e28396caa8ecb433ba9aa0c5374",
+      "selection": "Distinct complete timer-from-startup variant without working on/restart state control.",
+      "libraries": [],
+      "code_changes": "None"
+    }
+  ],
+  "illustration": {
+    "path": "docs/assets/button-game-circuit.png",
+    "source": "Robotika/Screenshot 2024-09-21 at 21.59.22.png",
+    "sha256": "cd1eea914cd494c4683dbdd4b30135e0ba79eb9c7d2f52e13f5d4d4e998f5af4",
+    "changes": "None"
+  },
+  "component_notes": {
+    "path": "archive/component_checks/README.md",
+    "source": "Robotika/robitika1.txt",
+    "selected_lines": [
+      [
+        283,
+        285
+      ],
+      [
+        290,
+        300
+      ],
+      [
+        302,
+        306
+      ],
+      [
+        310,
+        333
+      ],
+      [
+        336,
+        341
+      ],
+      [
+        345,
+        351
+      ]
+    ],
+    "changes": "Original fragments placed in explanatory Markdown"
+  },
+  "excluded": [
+    "Unrelated Python optimization code from the mixed note",
+    "Library source and library examples",
+    "Build, editor and operating-system files"
+  ],
+  "verification": "Static source-byte comparisons and documentation review. No sketch was compiled, uploaded or executed; no hardware tests were performed."
+}
